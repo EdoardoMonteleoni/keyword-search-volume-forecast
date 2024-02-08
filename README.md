@@ -24,7 +24,7 @@ Index based on factors such as targeting settings and quality. It is a hidden nu
 
 2 - Impressions are based on intent-based keywords, and looking for a product doesn't necessarily mean a future sale. There is always the likelihood that a random number of users will miss the bottom of the sales funnel.
 
-More reliable measures to rely on, such as the ones from official statistics, could reduce this "intent-do" gap and allow marketing analysts to build more reliable budget forecasts, a source such as the Rome Fiumicino's Air Traffic Data web page I used in this very project.
+More reliable measures to rely on, such as the ones from official statistics, could reduce this "intent-do" gap and allow marketing analysts to build more reliable budget forecasts, a source such as the Rome Fiumicino's Air Traffic Data [web page](https://www.adr.it/web/aeroporti-di-roma-en/bsn-traffic-data?p_p_id=it_adr_trafficdata_web_portlet_TrafficDataWebPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_it_adr_trafficdata_web_portlet_TrafficDataWebPortlet_dataRif=202312&_it_adr_trafficdata_web_portlet_TrafficDataWebPortlet_tabs1=FCO) I used in this very project.
 
 The general idea is to weigh the keyword search volume with the projected monthly number of air passengers gathered from the above data source. Here, the dependent variable "keyword search volume" is derived as a linear relationship with its future trend and seasonal components plus the official air passenger volume. The forecasting period is about the first three months of 2023.
 
@@ -32,9 +32,9 @@ The general idea is to weigh the keyword search volume with the projected monthl
 
 The time frame considered is from February 2018 to December 2022, and the final data set is made up of a date column filled with year-month values, a second column consisting of monthly search volume derived from the company's Google Ads account, and a final field with historical number of passengers for the intended Airport. 
 
-Since the data frame is made up of only 59 records,  I did not use any particular structured tool to build it. As for the forecasts, I used the programming language R, particularly feasts for time series analyses and fable for the forecast part.
+Since the data frame is made up of only 59 records,  I did not use any particular structured tool to build it. As for the forecasts, I used the programming language R, particularly [feasts](https://feasts.tidyverts.org/) for time series analyses and [fable](https://fable.tidyverts.org/) for the forecast part.
 
-Comparing two time series with significant differences in scale is quite complex, so instead of computing transformations, for this work, I will consider month-over-month per cent variations, both for "search volume" and for "number of passengers". Also, treating relative measures instead of absolute ones prevents further masking sensible data.
+Comparing two [time series](Search_vs_passengers_variation.pdf) with significant differences in scale is quite complex, so instead of computing transformations, for this work, I will consider month-over-month per cent variations, both for "search volume" and for "number of passengers". Also, treating relative measures instead of absolute ones prevents further masking sensible data.
 
 The time series have similar trends, suggesting a positive linear relationship between them. To a certain extent, this behaviour is assumed since the user intent tends to precede the actual flight booking. 
 
