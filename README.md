@@ -1,6 +1,6 @@
 # Forecasting the volume of keyword searches for efficient budget allocation in Search Engine Advertising for the travel/tourism industry
 
-### Keywords Search Volume Forecasting in the Travel Industry: Another Approach Using Official Air Traffic Data to Improve the Projections
+### A Search Volume Forecasting Project in the Travel Industry Using Official Air Traffic Data as an alternative approach to improve projections and budget allocation.
 
 
 Search advertising budgets in the tourism and travel industry are strictly based on seasons, and a good **search volume** forecast at the keyword level allows the organisation to run efficient search ad campaigns.
