@@ -13,9 +13,8 @@ library(fabletools)
 
 # Data set URL: https://www.adr.it/web/aeroporti-di-roma-en/bsn-traffic-data
 # import CSV file
-# Type your directory path along with the CSV file name in "~/..your_path/filename.csv"
-
-search_pass <- read.csv("~/Documents/R-projects/Search Volume Forecast/keyword_search_volume.csv", fileEncoding = "UTF-8")
+# Type your directory path along with the CSV file name
+search_pass <- read.csv("/keyword_search_volume.csv", fileEncoding = "UTF-8")
 
 # Create a Tsibble object (time series tibble object) modifying the variable 
 # named "yearmonth" of type: yearmonth(), using the nested function lubridate::my()
