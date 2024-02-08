@@ -15,7 +15,7 @@ library(fabletools)
 # import CSV file
 # Type your directory path along with the CSV file name in "~/..your_path/filename.csv"
 
-search_pass <- read.csv("~/Documents/R-projects/Google Ads/googleads_search_volume.csv", fileEncoding = "UTF-8")
+search_pass <- read.csv("~/Documents/R-projects/Search Volume Forecast/keyword_search_volume.csv", fileEncoding = "UTF-8")
 
 # Create a Tsibble object (time series tibble object) modifying the variable 
 # named "yearmonth" of type: yearmonth(), using the nested function lubridate::my()
@@ -97,12 +97,21 @@ test_search <- gads_ts |>
       # 3 - a final (fit3) Exponential Smoothing model using the Holt-Winters’ method
       # with additive trend and seasonal components.
 
+fit1 <- train_search |> 
+  model(tslm1 = TSLM(Var_search ~ Var_pass + trend() + season())) # model
+
+fit2 <- train_search |> 
+  model(tslm2 = TSLM(Var_search ~ trend() + season())) # model
+
+fit3 <- train_search |> 
+  model(ets = ETS(Var_search ~ error("A") + trend("A") + season("A"))) # model
+
+# Measure the predictive accuracy of regressor for each model
+
 fit <- train_search |> 
       model(tslm1 = TSLM(Var_search ~ Var_pass + trend() + season()),
             tslm2 = TSLM(Var_search ~ trend() + season()),
             ets = ETS(Var_search ~ error("A") + trend("A") + season("A"))) # model
-
-# Measure the predictive accuracy of regressor for each model
 
 reg_assess <- glance(fit) |> 
   select(adj_r_squared, AIC, BIC, CV)
@@ -112,8 +121,6 @@ reg_assess <- glance(fit) |>
 fit1_eval <- gg_tsresiduals(fit1)
 fit2_eval <- gg_tsresiduals(fit2)
 fit3_eval <- gg_tsresiduals(fit3)
-
-
 
 # Producing forecasts from the "fit" object adding the "test" data frame
 
