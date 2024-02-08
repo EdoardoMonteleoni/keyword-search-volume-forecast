@@ -67,3 +67,5 @@ While for the first quarter, the Ad platform estimated no variation in search vo
 
 ![Gads Forecast](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/f1ba85a8-cf72-4756-92ee-343645043eba)
 The three-month Google Ads forecast for the target keyword
+
+![forecast](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/d3137247-c1e2-46a8-a475-e8a92e73c4c6)
