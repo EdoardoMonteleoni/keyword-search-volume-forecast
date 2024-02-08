@@ -43,7 +43,7 @@ with digital users searching for information for that upcoming summer holiday. H
 
 # Data preparation
 
-I split the data frame into a training and a testing data set. Considering the highly seasonal demand for the service, the "testing" part comprises the entire solar year, from January to December 2022.
+I split the data frame into a [training](training_df.csv) and a [test](test_df.csv) data set. Considering the highly seasonal demand for the service, the "testing" part comprises the entire solar year, from January to December 2022.
 
 # Modelling
 
@@ -51,12 +51,9 @@ Two variations of the Linear Regression and Exponential Smoothing models are use
 As for the Time Series Linear Model, a first version including air passengers with trend and seasonal components is implemented. The other version does not include air passengers as an exogenous feature.
 The last is an exponential smoothing model with the Holt-Winters method, with additive trend and seasonal components.
 
- 
 # Model Evaluation
 
 Looking at the residual plots, neither model sufficiently fits the data. Nevertheless, the Linear model with the "passenger" feature accurately forecasted the metric on the Test data set. Moreover, compared to the built-in search volume projection of the Ad platform, the estimates give a more comprehensive and helpful frame of the short-term search volume expectations.
-
-![regressors_assessment](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/9263b661-4810-4cac-95c9-00cf813ce94a)
 
 # Conclusions
 
