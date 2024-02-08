@@ -78,7 +78,7 @@ components(gads_dec) |>
 
 # Create a training and a testing data set to test the models
 
-train_search <- gads_ts |> 
+training_search <- gads_ts |> 
   slice(1:47)
 
 test_search <- gads_ts |> 
@@ -96,18 +96,18 @@ test_search <- gads_ts |>
       # 3 - a final (fit3) Exponential Smoothing model using the Holt-Winters’ method
       # with additive trend and seasonal components.
 
-fit1 <- train_search |> 
+fit1 <- training_search |> 
   model(tslm1 = TSLM(Var_search ~ Var_pass + trend() + season())) # model
 
-fit2 <- train_search |> 
+fit2 <- training_search |> 
   model(tslm2 = TSLM(Var_search ~ trend() + season())) # model
 
-fit3 <- train_search |> 
+fit3 <- training_search |> 
   model(ets = ETS(Var_search ~ error("A") + trend("A") + season("A"))) # model
 
 # Measure the predictive accuracy of regressor for each model
 
-fit <- train_search |> 
+fit <- training_search |> 
       model(tslm1 = TSLM(Var_search ~ Var_pass + trend() + season()),
             tslm2 = TSLM(Var_search ~ trend() + season()),
             ets = ETS(Var_search ~ error("A") + trend("A") + season("A"))) # model
