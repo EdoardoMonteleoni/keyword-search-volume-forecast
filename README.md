@@ -2,8 +2,6 @@
 
 Keywords Search Volume Forecasting in the Travel Industry: Another Approach Using Official Air Traffic Data to Improve the Projections
 
-![three_months_forecast.pdf](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/files/14207377/three_months_forecast.pdf)
-
 Search advertising budgets in the tourism and travel industry are strictly based on seasons, and a good search volume forecast at the keyword level allows the organisation to run efficient search ad campaigns.
 
 A common approach to the question is using the built-in keyword planner tool in Google Ads or Microsoft Advertising. These platforms consider the account's historical data, plus other factors, such as seasonal values, organic volumes and competitor bidding for the intended group of keywords.
