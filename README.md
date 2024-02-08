@@ -2,7 +2,8 @@
 
 ### Keywords Search Volume Forecasting in the Travel Industry: Another Approach Using Official Air Traffic Data to Improve the Projections
 
-Search advertising budgets in the tourism and travel industry are strictly based on seasons, and a good search volume forecast at the keyword level allows the organisation to run efficient search ad campaigns.
+
+Search advertising budgets in the tourism and travel industry are strictly based on seasons, and a good **search volume** forecast at the keyword level allows the organisation to run efficient search ad campaigns.
 
 A common approach to the question is using the built-in keyword planner tool in Google Ads or Microsoft Advertising. These platforms consider the account's historical data, plus other factors, such as seasonal values, organic volumes and competitor bidding for the intended group of keywords.
 
@@ -10,17 +11,17 @@ Since I don't want to rely solely on these "black-box" tools to gauge a short-te
 
 # The business problem
 
-Setting a proper budget for search engine advertising campaigns is paramount for many reasons, and doing it in advance is even more critical, particularly for travel businesses that have to deal with seasonal demand fluctuations. To efficiently and effectively set up proper search budgets for future marketing campaigns, apart from historical Cost per Click, one should consider the volume of future searches for the targeted keywords.
+Setting a proper budget for search engine advertising campaigns is paramount, and doing it beforehand is even more critical, particularly for travel and tourism businesses that have to deal with seasonal demand fluctuations. To efficiently and effectively set up proper search budgets, apart from historical Cost per Click, one could consider the volume of future searches for the targeted keywords.
 
 An important metric used in Search Engine Advertising to assess the number of times a user searches for a particular (paid) keyword is [Search Volume](https://adalysis.com/blog/ppc-kpi-monitoring-how-to-diagnose-changes-to-your-impression-search-volume), which is the number of Ad impressions divided by the search network [Impression Share](https://adalysis.com/blog/ppc-kpi-monitoring-how-to-diagnose-changes-to-your-impression-search-volume).
 One of its advantages is that it is a keyword-based index, which considers the number of relevant queries from interested users about the advertised product.
 
-Considering historical data available at the account keyword level, forecasting Search Volume is relatively easy. The hard part is building and presenting forecasts when entirely dependent on this metric. The cons I found in using this variable are two:
+Considering historical data available at the account keyword level, forecasting Search Volume is relatively easy. The hard part is building and presenting forecasts when we have no other metric to rely on. 
+The cons I found in using this variable are two:
 
-1 -  This metric depends on "Total Eligible Impressions", an 
-Index based on factors such as targeting settings and quality. It is a hidden numerical estimate made by the ad platform considering only contextual elements.
+1 -  This metric depends on "Total Eligible Impressions", an index based on factors such as targeting settings and quality. It is a hidden-computed numerical estimate made by the ad platform and based only on contextual elements. Modifying negative keyword lists or adding a particular target audience might considerably increase or decrease this metric.
 
-2 - Impressions are based on intent-based keywords, and looking for a product doesn't necessarily mean a future sale. There is always the likelihood that a random number of users will miss the bottom of the sales funnel.
+2 - Impressions refer to intent-based keywords, and looking for a product doesn't necessarily mean a future sale. There is always the likelihood that a random number of users will miss the bottom of the sales funnel.
 
 More reliable measures to rely on, such as the ones from official statistics, could reduce this "intent-do" gap and allow marketing analysts to build more reliable budget forecasts, a source such as the Rome Fiumicino's Air Traffic Data [web page](https://www.adr.it/web/aeroporti-di-roma-en/bsn-traffic-data?p_p_id=it_adr_trafficdata_web_portlet_TrafficDataWebPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_it_adr_trafficdata_web_portlet_TrafficDataWebPortlet_dataRif=202312&_it_adr_trafficdata_web_portlet_TrafficDataWebPortlet_tabs1=FCO) I used in this very project.
 
