@@ -54,6 +54,8 @@ The last is an exponential smoothing model with the Holt-Winters method, with ad
 
 Looking at the residual plots, neither model sufficiently fits the data. Nevertheless, the Linear model with the "passenger" feature accurately forecasted the metric on the Test data set. Moreover, compared to the built-in search volume projection of the Ad platform, the estimates give a more comprehensive and helpful frame of the short-term search volume expectations.
 
+![regressors_assessment](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/9263b661-4810-4cac-95c9-00cf813ce94a)
+
 # Conclusions
 
 Although the selected model did not fit the data training correctly, the three-month forecasts seem to adhere better to the market situation after COVID-19 restrictions. 
