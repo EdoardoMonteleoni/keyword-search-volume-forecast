@@ -62,6 +62,7 @@ Looking at the residual plots, neither model sufficiently fits the data. Neverth
 Although the selected model did not fit the data training correctly, the three-month [forecasts](three_month_forecast.pdf) seem to adhere better to the market situation after COVID-19 restrictions. 
 
 ![three_month_forecast](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/5ce0c4fd-5efa-45b4-8d0a-70086e4510fe)
+
 A plot of search volume variation forecast for the Q1-2023
 
 While for the first quarter, the Ad platform estimated no variation in search volume for the selected keyword (0%), the model selected performed more optimistic [values](forecast.csv): a 21% (first scenario) and a 15% (second scenario) of search volume increasing (on average). The actual delta variation was 9.05%, as the average search volume occurred in 2023-Q1. So, the regression model, where the Airport passengers were estimated using the seasonal naive model (second scenario), produced a more accurate forecast.
