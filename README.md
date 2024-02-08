@@ -70,4 +70,5 @@ While for the first quarter, the Ad platform estimated no variation in search vo
 The three-month Google Ads forecast for the target keyword
 
 ![forecast](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/d3137247-c1e2-46a8-a475-e8a92e73c4c6)
-"The three-month forecast computed using the time series linear model and two different scenario for the future number of passengers"
+
+"The three-month forecast computed using the time series linear model and two different scenarios for the future number of passengers"
