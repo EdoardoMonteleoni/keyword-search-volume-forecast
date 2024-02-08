@@ -36,7 +36,7 @@ Since the data frame is made up of only 59 records,  I did not use any particula
 
 Comparing two [time series](Search_vs_passengers_variation.pdf) with significant differences in scale is quite complex, so instead of computing transformations, for this work, I will consider month-over-month per cent variations, both for "search volume" and for "number of passengers". Also, treating relative measures instead of absolute ones prevents further masking sensible data.
 
-The time series have similar trends, suggesting a positive linear relationship between them. To a certain extent, this behaviour is assumed since the user intent tends to precede the actual flight booking. 
+The time series have similar trends, suggesting a [positive linear relationship](feature_linear_relationship.pdf) between them. To a certain extent, this behaviour is assumed since the user intent tends to precede the actual flight booking. 
 
 A trough in March 2020 and a significant peak in June are due to the COVID-19 restrictions and the following Airport reopenings, 
 with digital users searching for information for that upcoming summer holiday. Hence, these values are not considered outliers.
