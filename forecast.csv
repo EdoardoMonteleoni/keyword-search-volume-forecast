@@ -1,0 +1,7 @@
+"","date","scenario","search_volume_fc (Δ %)"
+"1",2023 Jan,"pass_avg",0.313307660215936
+"2",2023 Feb,"pass_avg",0.0682925141702152
+"3",2023 Mar,"pass_avg",0.077970757384996
+"4",2023 Jan,"pass_snaive",-0.145977587826756
+"5",2023 Feb,"pass_snaive",0.199964023263781
+"6",2023 Mar,"pass_snaive",0.578990239688723
