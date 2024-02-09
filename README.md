@@ -30,7 +30,7 @@ The general idea is to weigh the keyword search volume with the projected monthl
 
 # Data understanding
 
-The time frame considered is from February 2018 to December 2022, and the final data set is made up of a date column filled with year-month values, a second column consisting of monthly search volume derived from the company's Google Ads account, and a final field with historical number of passengers for the intended Airport. 
+The time frame considered is from February 2018 to December 2022, and the final data set is made up of a date column filled with year-month values, a second column consisting of monthly search volume derived from the company's Google Ads account, and a final field with a historical number of passengers for the intended Airport. 
 
 Since the data frame is made up of only 59 records,  I did not use any particular structured tool to build it. As for the forecasts, I used the programming language R, particularly [feasts](https://feasts.tidyverts.org/) for time series analyses and [fable](https://fable.tidyverts.org/) for the forecast part.
 
@@ -40,7 +40,7 @@ Comparing two [time series](Search_vs_passengers_variation.pdf) with significant
 
 The time series have similar trends, suggesting a [positive linear relationship](feature_linear_relationship.pdf) between them. To a certain extent, this behaviour is assumed since the user intent tends to precede the actual flight booking. 
 
-A trough in March 2020 and a significant peak in June are due to the COVID-19 restrictions and the following Airport reopenings, 
+A trough in March 2020 and a significant peak in June are due to the COVID-19 restrictions, followed by gradual Airport reopenings, 
 with digital users searching for information for that upcoming summer holiday. Hence, these values are not considered outliers.
 
 # Data preparation
@@ -65,11 +65,11 @@ Although the selected model did not fit the data training correctly, the three-m
 
 A plot of search volume variation forecast for the Q1-2023
 
-While for the first quarter, the Ad platform estimated no variation in search volume for the selected keyword (0%), the model selected performed more optimistic [values](forecast.csv): a 21% (first scenario) and a 15% (second scenario) of search volume increasing (on average). The actual delta variation was 9.05%, as the average search volume occurred in 2023-Q1. So, the regression model, where the Airport passengers were estimated using the seasonal naive model (second scenario), produced a more accurate forecast.
+While the Ad platform estimated no variation in search volume for the selected keyword in the first quarter (0%), the model selected performed more optimistic [values](forecast.csv): a 21% (first scenario) and a 15% (second scenario) of search volume increasing (on average). The real search volume delta variation that actually occurred was 9.05%. So, the regression model with the estimated Airport passengers using the seasonal naive model (second scenario), produced a more accurate forecast: 66% accuracy vs 
 
 ![Gads Forecast](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/f1ba85a8-cf72-4756-92ee-343645043eba)
 The three-month Google Ads forecast for the target keyword
 
 ![forecast](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/d3137247-c1e2-46a8-a475-e8a92e73c4c6)
 
-"The three-month forecast computed using the time series linear model and two different scenarios for the future number of passengers"
+"The three-month forecast computed using the time series linear model and two different scenarios for the future number of passengers".
