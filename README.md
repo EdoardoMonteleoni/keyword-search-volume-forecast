@@ -79,6 +79,6 @@ _The three-month Google Ads forecast for the target keyword_
 
 _The three-month forecast computed using the time series linear model and two different scenarios for the near future number of passengers_
 
-[^1]: Google Ads Help - "About Keyword Planner forecasts" (https://support.google.com/google-ads/answer/3022575?sjid=13323525779093924143-EU&visit_id=638430680710415783-1787451205&rd=1). Last accessed Feb 2024
+[^1]: Google Ads Help - _"About Keyword Planner forecasts"_ (https://support.google.com/google-ads/answer/3022575?sjid=13323525779093924143-EU&visit_id=638430680710415783-1787451205&rd=1). Last accessed Feb 2024
 
-[^2]: Hyndman, R.J., & Athanasopoulos, G. (2021) Forecasting: principles and practice, 3rd edition, OTexts: Melbourne, Australia. OTexts.com/fpp3. Accessed on Feb 2024
+[^2]: Hyndman, R.J., & Athanasopoulos, G. (2021) _Forecasting: principles and practice_, 3rd edition, OTexts: Melbourne, Australia. OTexts.com/fpp3. Accessed on Feb 2024
