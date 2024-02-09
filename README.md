@@ -51,6 +51,8 @@ The subseries plot, other than emphasizing the seasonal patterns of the time ser
 
 ![seasons](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/52f34ee1-2b8d-4e9a-8033-a12cdbfe153b)
 
+![subseries](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/8f819028-b3b7-40af-8a25-4a9c7906c69d)
+
 # Data preparation
 
 I split the data frame into a [training](training_df.csv) and a [test](test_df.csv) data set. Considering the highly seasonal demand for the service, the "testing" part comprises the entire solar year, from January to December 2022.
