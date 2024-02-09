@@ -57,7 +57,7 @@ The last is an exponential smoothing model with the Holt-Winters method, with ad
 
 Looking at the residual plots, neither model sufficiently fits the data. Nevertheless, the Linear model with the "passenger" feature accurately forecasted the metric on the Test data set. Moreover, compared to the built-in search volume projection of the Ad platform, the estimates give a more comprehensive and helpful frame of the short-term search volume expectations.
 
-![forecast_accuracy](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/b99bdcea-6499-46f5-a0fb-d5c687175b96)
+![forecast_accuracy](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/fd842d02-2b83-4cf5-b83e-132f68d0522c)
 
 Looking at the Root Mean Squared Error (RMSE), "tslm1" with its two scenarios, is the model with the smallest value.
 # Conclusions
