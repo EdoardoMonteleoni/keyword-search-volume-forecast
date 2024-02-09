@@ -81,7 +81,9 @@ _The three-month forecast computed using the time series linear model and two di
 
 Considering the highly seasonal behaviour of the metric being forecasted, the Seasonal Naive method (scenario n.2) used in the linear model produced a search volume prediction that fitted the actual trend considerably well. 
 
-![forecast_accuarcy_chart](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/81da8c8e-fe28-4e72-b057-1368aa30a71d)
+
+<img width="500" alt="forecast_accuarcy_chart" src="https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/e84c54ef-8fac-4de7-890b-3d192e472408">
+
 
 Google Ads keyword planner is a great and reliable forecasting tool that relies on AI and other fundamental account-based factors for its projections. On the other hand, its "black-box" framework and a certain lack of flexibility in choosing customised timeframes for volume forecasts, should prompt the analytics team to seek and implement other methods to produce month-over-month predictions. For example, the one shown in this project could help effectively and efficiently allocate search ad budget, particularly where monthly adjustments are needed.
 
