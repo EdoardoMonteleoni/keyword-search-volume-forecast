@@ -69,7 +69,7 @@ Although the selected model did not fit the data training correctly, the three-m
 
 A plot of search volume variation forecast for the Q1-2023
 
-While the Ad platform estimated no variation in search volume for the selected keyword in the first quarter (0%), the model selected performed more optimistic [values](forecast.csv): a 21% (first scenario) and a 15% (second scenario) of search volume increasing (on average). The real search volume delta variation that actually occurred was 9.05%. So, the regression model with the estimated Airport passengers using the seasonal naive model (second scenario), produced a more accurate forecast.
+While the Ad platform estimated no variation in search volume for the selected keyword in the first quarter (0%), the model selected performed more optimistic [values](forecast.csv): a 21% (first scenario) and a 15% (second scenario) of search volume increasing (on average). The real search volume delta variation that actually occurred was 16%. So, the regression model with the estimated Airport passengers using the seasonal naive model (second scenario), produced a more accurate forecast.
 
 ![Gads Forecast](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/f1ba85a8-cf72-4756-92ee-343645043eba)
 The three-month Google Ads forecast for the target keyword
