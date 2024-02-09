@@ -22,11 +22,11 @@ The cons I found in using this variable are two:
 
 1 -  This metric depends on "Total Eligible Impressions", an index based on factors such as targeting settings and quality. It is a hidden-computed numerical estimate made by the ad platform and based only on contextual elements. Modifying negative keyword lists or adding a particular target audience might increase or decrease this metric considerably.
 
-2 - In Search Engine Marketing, "Impressions" measures the times an Ad appears on a search result page after typing a search term. If the advertiser specifies a set of keywords that are relevant to that search query, and also the [Ad Rank](https://support.google.com/google-ads/answer/1752122?hl=en&ref_topic=24937&sjid=13026874370645627094-EU) is above a certain threshold, then the Ads could be shown. The problem is that those are intent-based keywords, and a random number of users who seek the product will miss the bottom of the sales funnel. This gap can make "search volume" forecasts more or less uncertain.
+2 - In Search Engine Marketing, "Impressions" measures the times an Ad appears on a search result page after typing a search term. If the advertiser specifies a set of keywords that are relevant to that search query, and also the [Ad Rank](https://support.google.com/google-ads/answer/1752122?hl=en&ref_topic=24937&sjid=13026874370645627094-EU) is above a certain threshold, then the Ads could be shown. The problem is that those are intent-based keywords, and a random number of users who seek the product will miss the bottom of the sales funnel. This gap can add to the "search volume" forecasts a relevant degree of uncertainty influencing the prediction accuracy.
 
-More reliable measures to rely on, such as the ones from official statistics, could reduce this gap and allow marketing analysts to set more reliable budget forecasts. [web page]
+More reliable measures to rely on, such as the ones from official statistics, could reduce this gap and allow marketing analysts to set more reliable budget forecasts. Nevertheless,  such a measure refers to a broad audience that might differ considerably from the target user, making search campaigns inefficient.
 
-The idea is to weigh the keyword search volume with the projected monthly number of air passengers gathered from the above data source. Here, the dependent variable "keyword search volume" is derived as a linear relationship with its future trend and seasonal components plus the official air passenger volume. The forecasting period is related to the first quarter of 2023.
+Therefore, the idea is to consider a blend of the two metrics above, weighing the keyword **search volume** with the projected monthly **number of air passengers** gathered from the above data source. Here, the dependent variable "keyword search volume" is derived as a linear relationship with its future trend and seasonal components plus the official air passenger volume. The forecasting period is related to the first quarter of 2023.
 
 # Data understanding
 
@@ -47,7 +47,7 @@ with digital users searching for information for that upcoming summer holiday. H
 
 The seasonal plot confirms the gap between when users search for a parking service and when the actual holiday season starts; for example, peaks in November are related to the Christmas Holiday season. The same is true for July's search volume peaks, which refer mostly to the users who booked a flight in August.
 
-The subseries plot further emphasizes the peculiar seasonal patterns of the time series. The blue line shows the average number of monthly searches for the target keyword, whereas the spikes and troughs in almost every month of 2020, depict the closing and then the reopening timeframe due to the COVID-19 spreading worldwide.  
+The subseries plot further emphasizes the peculiar seasonal patterns of the time series. The blue line shows the average number of monthly searches for the target keyword, whereas the spikes and troughs in almost every month of 2020, depict the closing and then the reopening timeframe due to COVID-19 spreading worldwide.  
 
 ![seasons](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/52f34ee1-2b8d-4e9a-8033-a12cdbfe153b)
 
