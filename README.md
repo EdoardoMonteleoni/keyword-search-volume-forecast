@@ -49,7 +49,7 @@ I split the data frame into a [training](training_df.csv) and a [test](test_df.c
 
 # Modelling
 
-Two variations of the Linear Regression and Exponential Smoothing models are used. 
+Two variations of the Linear Regression and Exponential Smoothing models are used.[^2] 
 As for the Time Series Linear Model, a first version including air passengers with trend and seasonal components is implemented. The other version does not include air passengers as an exogenous feature.
 The last is an exponential smoothing model with the Holt-Winters method, with additive trend and seasonal components.
 
@@ -80,3 +80,5 @@ _The three-month Google Ads forecast for the target keyword_
 _The three-month forecast computed using the time series linear model and two different scenarios for the near future number of passengers
 
 [^1]: [Google Keyword Planner Tool](https://support.google.com/google-ads/answer/3022575?sjid=13323525779093924143-EU&visit_id=638430680710415783-1787451205&rd=1)
+
+[^2]: Hyndman, R.J., & Athanasopoulos, G. (2021) Forecasting: principles and practice, 3rd edition, OTexts: Melbourne, Australia. OTexts.com/fpp3. Accessed on Feb 2024
