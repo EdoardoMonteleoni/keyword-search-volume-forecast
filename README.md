@@ -73,6 +73,6 @@ While the Ad platform estimated no variation in search volume for the selected k
 ![Gads Forecast](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/f1ba85a8-cf72-4756-92ee-343645043eba)
 The three-month Google Ads forecast for the target keyword
 
-![forecast](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/d3137247-c1e2-46a8-a475-e8a92e73c4c6)
+![forecast](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/5b749eb2-e72a-42ce-90a8-8633071cf629)
 
-"The three-month forecast computed using the time series linear model and two different scenarios for the future number of passengers".
+"The three-month forecast computed using the time series linear model and two different scenarios for the near future number of passengers".
