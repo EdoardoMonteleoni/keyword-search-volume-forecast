@@ -2,9 +2,7 @@
 
 ### A Search Volume Forecasting Project in the Travel Industry Using Official Air Traffic Data as an Alternative Approach to Improve Projections and Budget Allocation.
 
-
 ![LinkedinBackGround2](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/b0658c0b-a92c-4ef6-8e81-0c74cb9e272e)
-
 
 Search advertising budgets should be based on seasonality and demand fluctuations [^1], and a good **search volume** forecast at the keyword level can allow organisations in the tourism and travel industry to run efficient and effective search advertising campaigns.
 
@@ -47,7 +45,9 @@ The time series have similar trends, suggesting a [positive linear relationship]
 A trough in March 2020 and a significant peak in June are due to the COVID-19 restrictions, followed by gradual Airport reopenings, 
 with digital users searching for information for that upcoming summer holiday. Hence, these values are not considered outliers.
 
-The seasonal plot confirms the gap between when users search for a parking service and the actual holiday season starting: for example, peaks in November are related to the Christmas Holiday season. The same is true for July's search volume peaks, which refer mostly to the users who booked a flight in August.
+The seasonal plot confirms the gap between when users search for a parking service and when the actual holiday season starts; for example, peaks in November are related to the Christmas Holiday season. The same is true for July's search volume peaks, which refer mostly to the users who booked a flight in August.
+
+The subseries plot, other than emphasizing the seasonal patterns of the time series, shows a spike in January 2020 a month before the COVID-19 virus started spreading worldwide. After three months of negative peaks due to the restrictions, at the end of May 2020, the Italian Government allowed the reopening of many activities. So, users started searching for booking flights, hence the peak in June 2020.  
 
 ![seasons](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/52f34ee1-2b8d-4e9a-8033-a12cdbfe153b)
 
