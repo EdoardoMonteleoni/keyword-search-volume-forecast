@@ -79,6 +79,9 @@ _The three-month Google Ads forecast for the target keyword_
 
 _The three-month forecast computed using the time series linear model and two different scenarios for the near future number of passengers_
 
+Considering the highly seasonal behaviour of the metric being forecasted, the Seasonal Naive method (scenario n.2) used in the linear model produced a search volume prediction that fitted the actual trend considerably well. 
+
+Google Ads keyword planner is a great and reliable forecasting tool that relies on AI and other fundamental account-based factors for its projections. On the other hand, its "black-box" framework and a certain lack of flexibility in choosing customised timeframes for volume forecasts, should prompt the analytics team to seek and implement other methods to produce month-over-month predictions. For example, the one shown in this project could help effectively and efficiently allocate search ad budget, particularly where monthly adjustments are needed.
 
 [^1]: Think with Google: _"3 budgeting tips to help marketers plan for 2021 amid uncertainty"_ (https://www.thinkwithgoogle.com/intl/en-emea/future-of-marketing/management-and-culture/3-budgeting-tips-help-marketers-plan-2021-amid-uncertainty/). Last access Feb 2024
 
