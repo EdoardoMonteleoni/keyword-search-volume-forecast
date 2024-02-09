@@ -22,7 +22,7 @@ The cons I found in using this variable are two:
 
 1 -  This metric depends on "Total Eligible Impressions", an index based on factors such as targeting settings and quality. It is a hidden-computed numerical estimate made by the ad platform and based only on contextual elements. Modifying negative keyword lists or adding a particular target audience might increase or decrease this metric considerably.
 
-2 - In Search Engine Marketing, "Impressions" measures the times an Ad appears on a search result page after typing a search term. If the advertiser specifies a set of keywords that are relevant to that search query, and also the [Ad Rank](https://support.google.com/google-ads/answer/1752122?hl=en&ref_topic=24937&sjid=13026874370645627094-EU) is above a certain threshold, then the Ads could be shown. The problem is that those are intent-based keywords, and a random number of users who seek our product will miss the bottom of the sales funnel. This gap can make "search volume" forecasts more or less uncertain.
+2 - In Search Engine Marketing, "Impressions" measures the times an Ad appears on a search result page after typing a search term. If the advertiser specifies a set of keywords that are relevant to that search query, and also the [Ad Rank](https://support.google.com/google-ads/answer/1752122?hl=en&ref_topic=24937&sjid=13026874370645627094-EU) is above a certain threshold, then the Ads could be shown. The problem is that those are intent-based keywords, and a random number of users who seek the product will miss the bottom of the sales funnel. This gap can make "search volume" forecasts more or less uncertain.
 
 More reliable measures to rely on, such as the ones from official statistics, could reduce this gap and allow marketing analysts to set more reliable budget forecasts. For example, for this work, I have referred to Rome Fiumicino's Air Traffic Data [web page](https://www.adr.it/web/aeroporti-di-roma-en/bsn-traffic-data?p_p_id=it_adr_trafficdata_web_portlet_TrafficDataWebPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_it_adr_trafficdata_web_portlet_TrafficDataWebPortlet_dataRif=202312&_it_adr_trafficdata_web_portlet_TrafficDataWebPortlet_tabs1=FCO).
 
@@ -63,7 +63,7 @@ Looking instead at the point forecast accuracy such as Mean Absolute Percent Err
 
 # Conclusions
 
-Although the selected model did not fit the data training correctly, the three-month [forecasts](three_month_forecast.pdf) seem to adhere better to the market situation after COVID-19 restrictions. 
+Although the selected model did not fit the data training correctly, the three-month [forecasts](three_month_forecast.pdf) seem to better adhere to the market situation after the COVID-19 restrictions. 
 
 ![three_month_forecast](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/5ce0c4fd-5efa-45b4-8d0a-70086e4510fe)
 
