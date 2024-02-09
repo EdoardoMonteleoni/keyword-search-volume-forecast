@@ -160,7 +160,12 @@ new_trend <- scenarios (
 
 fcast <- forecast(fit_search, new_trend)
 
-# Plot the time series search volume variation forecast
+# Evaluate forecast accuracy
+
+fc_accuracy <- accuracy(fc_total, test_search) |> 
+       select(.model, .type, ME, RMSE, MAE)
+
+# Plot the search volume variation forecast
 
 gads_ts |> 
        autoplot(Var_search) +
