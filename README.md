@@ -1,4 +1,4 @@
-# Forecasting the volume of keyword searches for efficient budget allocation in Search Engine Advertising for the travel/tourism industry
+# Forecasting the volume of keyword searches for efficient PPC budget allocation in the travel/tourism industry
 
 ### A Search Volume Forecasting Project in the Travel Industry Using Official Air Traffic Data as an Alternative Approach to Improve Projections and Budget Allocation.
 
