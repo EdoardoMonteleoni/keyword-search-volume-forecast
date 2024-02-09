@@ -77,7 +77,7 @@ _The three-month Google Ads forecast for the target keyword_
 
 ![forecast](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/5b749eb2-e72a-42ce-90a8-8633071cf629)
 
-_The three-month forecast computed using the time series linear model and two different scenarios for the near future number of passengers
+_The three-month forecast computed using the time series linear model and two different scenarios for the near future number of passengers_
 
 
 [^1]: Think with Google: _"3 budgeting tips to help marketers plan for 2021 amid uncertainty"_ (https://www.thinkwithgoogle.com/intl/en-emea/future-of-marketing/management-and-culture/3-budgeting-tips-help-marketers-plan-2021-amid-uncertainty/). Last access Feb 2024
