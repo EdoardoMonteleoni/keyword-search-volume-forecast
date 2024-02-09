@@ -59,7 +59,8 @@ Looking at the residual plots, neither model sufficiently fits the data. Neverth
 
 ![forecast_accuracy](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/fd842d02-2b83-4cf5-b83e-132f68d0522c)
 
-Looking at the Root Mean Squared Error (RMSE), "tslm1" with its two scenarios, is the model with the smallest value.
+Looking instead at the point forecast accuracy such as Mean Absolute Percent Error (MAPE) or Root Mean Squared Error (RMSE), "tslm1" with its two scenarios, is the model with the smallest values among the entire group.
+
 # Conclusions
 
 Although the selected model did not fit the data training correctly, the three-month [forecasts](three_month_forecast.pdf) seem to adhere better to the market situation after COVID-19 restrictions. 
@@ -68,7 +69,7 @@ Although the selected model did not fit the data training correctly, the three-m
 
 A plot of search volume variation forecast for the Q1-2023
 
-While the Ad platform estimated no variation in search volume for the selected keyword in the first quarter (0%), the model selected performed more optimistic [values](forecast.csv): a 21% (first scenario) and a 15% (second scenario) of search volume increasing (on average). The real search volume delta variation that actually occurred was 9.05%. So, the regression model with the estimated Airport passengers using the seasonal naive model (second scenario), produced a more accurate forecast: 66% accuracy vs 
+While the Ad platform estimated no variation in search volume for the selected keyword in the first quarter (0%), the model selected performed more optimistic [values](forecast.csv): a 21% (first scenario) and a 15% (second scenario) of search volume increasing (on average). The real search volume delta variation that actually occurred was 9.05%. So, the regression model with the estimated Airport passengers using the seasonal naive model (second scenario), produced a more accurate forecast.
 
 ![Gads Forecast](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/f1ba85a8-cf72-4756-92ee-343645043eba)
 The three-month Google Ads forecast for the target keyword
