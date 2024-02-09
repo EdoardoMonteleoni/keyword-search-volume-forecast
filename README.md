@@ -2,7 +2,9 @@
 
 ### A Search Volume Forecasting Project in the Travel Industry Using Official Air Traffic Data as an Alternative Approach to Improve Projections and Budget Allocation.
 
+
 ![LinkedinBackGround2](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/b0658c0b-a92c-4ef6-8e81-0c74cb9e272e)
+
 
 Search advertising budgets should be based on seasonality and demand fluctuations [^1], and a good **search volume** forecast at the keyword level can allow organisations in the tourism and travel industry to run efficient and effective search advertising campaigns.
 
