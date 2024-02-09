@@ -38,7 +38,7 @@ Comparing two [time series](Search_vs_passengers_variation.pdf) with significant
 
 ![feature_linear_relationship](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/96f46664-9737-40ae-990b-93fc139ec998)
 
-The time series have similar trends, suggesting a [positive linear relationship](feature_linear_relationship.pdf) between them. To a certain extent, this behaviour is assumed since the product research by a prospective customer comes before the actual flight booking. 
+The time series have similar trends, suggesting a [positive linear relationship](feature_linear_relationship.pdf) between them. To a certain extent, this behaviour is assumed since the product research by a prospective customer comes before the actual flight booking. Rather, one can effectively deploy this aspect to enforce the explicability of a linear model to produce more accurate and reliable predictions.
 
 A trough in March 2020 and a significant peak in June are due to the COVID-19 restrictions, followed by gradual Airport reopenings, 
 with digital users searching for information for that upcoming summer holiday. Hence, these values are not considered outliers.
