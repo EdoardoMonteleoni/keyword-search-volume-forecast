@@ -36,9 +36,11 @@ Since the data frame is made up of only 59 records,  I did not use any particula
 
 Comparing two [time series](Search_vs_passengers_variation.pdf) with significant differences in scale is quite complex, so instead of computing transformations, for this work, I will consider month-over-month per cent variations, both for "search volume" and for "number of passengers". Also, treating relative measures instead of absolute ones prevents further masking sensible data.
 
-![feature_linear_relationship](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/96f46664-9737-40ae-990b-93fc139ec998)
+![Searc_vs_passenger_variation](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/d3568b3c-f53e-4d44-b88f-bea844342a83)
 
 The time series have similar trends, suggesting a [positive linear relationship](feature_linear_relationship.pdf) between them. To a certain extent, this behaviour is assumed since the product research by a prospective customer comes before the actual flight booking. Rather, one can effectively deploy this aspect to enforce the explicability of a linear model to produce more accurate and reliable predictions.
+
+![feature_linear_relationship](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/2d8f4817-db85-43e9-a066-9c0981081679)
 
 A trough in March 2020 and a significant peak in June are due to the COVID-19 restrictions, followed by gradual Airport reopenings, 
 with digital users searching for information for that upcoming summer holiday. Hence, these values are not considered outliers.
