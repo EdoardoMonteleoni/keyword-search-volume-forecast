@@ -6,7 +6,7 @@
 
 Search advertising budgets in the tourism and travel industry are strictly based on seasons, and a good **search volume** forecast at the keyword level allows the organisation to run efficient search ad campaigns.
 
-A common approach to the question is using the built-in keyword planner tool in Google Ads or Microsoft Advertising. These platforms consider the account's historical data, plus other factors, such as seasonal values, organic volumes and competitor bidding for the intended group of keywords.
+A common approach to the question is using the built-in keyword planner tool in Google Ads or Microsoft Advertising. These platforms consider the account's historical data, plus other factors, such as seasonal values, organic volumes and competitor bidding for the intended group of keywords.[^1]
 
 Since I don't want to rely solely on these "black-box" tools to gauge a short-term search volume for a keyword set, I will show a forecasting method based on a time series regression analysis and a data set derived from an official Airport's website.
 
@@ -77,4 +77,6 @@ _The three-month Google Ads forecast for the target keyword_
 
 ![forecast](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/5b749eb2-e72a-42ce-90a8-8633071cf629)
 
-_The three-month forecast computed using the time series linear model and two different scenarios for the near future number of passengers_
+_The three-month forecast computed using the time series linear model and two different scenarios for the near future number of passengers
+
+[^1]: [Google Keyword Planner Tool](https://support.google.com/google-ads/answer/3022575?sjid=13323525779093924143-EU&visit_id=638430680710415783-1787451205&rd=1)
