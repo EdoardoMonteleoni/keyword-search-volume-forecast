@@ -77,7 +77,7 @@ _The three-month Google Ads forecast for the target keyword_
 
 ![forecast](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/5b749eb2-e72a-42ce-90a8-8633071cf629)
 
-_The three-month forecast computed using the time series linear model and two different scenarios for the near future number of passengers
+_The three-month forecast computed using the time series linear model and two different scenarios for the near future number of passengers_
 
 [^1]: [Google Keyword Planner Tool](https://support.google.com/google-ads/answer/3022575?sjid=13323525779093924143-EU&visit_id=638430680710415783-1787451205&rd=1)
 
