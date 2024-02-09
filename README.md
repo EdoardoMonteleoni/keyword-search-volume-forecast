@@ -47,7 +47,7 @@ with digital users searching for information for that upcoming summer holiday. H
 
 The seasonal plot confirms the gap between when users search for a parking service and when the actual holiday season starts; for example, peaks in November are related to the Christmas Holiday season. The same is true for July's search volume peaks, which refer mostly to the users who booked a flight in August.
 
-The subseries plot, other than emphasizing the seasonal patterns of the time series, shows a spike in January 2020 a month before the COVID-19 virus started spreading worldwide. After three months of negative peaks due to the restrictions, at the end of May 2020, the Italian Government allowed the reopening of many activities. So, users started searching for booking flights, hence the peak in June 2020.  
+The subseries plot further emphasizes the peculiar seasonal patterns of the time series. The blue line shows the average number of monthly searches for the target keyword, whereas the spikes and troughs in almost every month of 2020, depict the closing and then the reopening timeframe due to the COVID-19 spreading worldwide.  
 
 ![seasons](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/52f34ee1-2b8d-4e9a-8033-a12cdbfe153b)
 
