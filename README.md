@@ -45,6 +45,10 @@ The time series have similar trends, suggesting a [positive linear relationship]
 A trough in March 2020 and a significant peak in June are due to the COVID-19 restrictions, followed by gradual Airport reopenings, 
 with digital users searching for information for that upcoming summer holiday. Hence, these values are not considered outliers.
 
+The seasonal plot confirms the gap between when users search for a parking service and the actual holiday season starting: for example, peaks in November are related to the Christmas Holiday season. The same is true for July's search volume peaks, which refer mostly to the users who booked a flight in August.
+
+![seasons](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/52f34ee1-2b8d-4e9a-8033-a12cdbfe153b)
+
 # Data preparation
 
 I split the data frame into a [training](training_df.csv) and a [test](test_df.csv) data set. Considering the highly seasonal demand for the service, the "testing" part comprises the entire solar year, from January to December 2022.
