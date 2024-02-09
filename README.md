@@ -8,7 +8,7 @@ Search advertising budgets should be based on seasonality and demand fluctuation
 
 A common approach to the question is using the built-in keyword planner tool in Google Ads or Microsoft Advertising. These platforms consider the account's historical data, plus other factors, such as seasonal values, organic volumes and competitor bidding for the intended group of keywords.[^2]
 
-Since I don't want to rely solely on these "black-box" tools to gauge a short-term search volume for a keyword set, I will show a forecasting method based on a time series regression analysis and a data set derived from an official Airport's website.
+Since I don't want to rely solely on these "black-box" tools to gauge a short-term search volume for a keyword set, I will show a forecasting method based on a time series regression analysis using R to write the [code](Code.R) and a data set built with the number of Rome-Fiumicino [Airport passengers](https://www.adr.it/web/aeroporti-di-roma-en/bsn-traffic-data?p_p_id=it_adr_trafficdata_web_portlet_TrafficDataWebPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_it_adr_trafficdata_web_portlet_TrafficDataWebPortlet_dataRif=202312&_it_adr_trafficdata_web_portlet_TrafficDataWebPortlet_tabs1=FCO) and the **search volume** metric derived from the organisation's Google Ads account.
 
 # The business problem
 
@@ -24,9 +24,9 @@ The cons I found in using this variable are two:
 
 2 - In Search Engine Marketing, "Impressions" measures the times an Ad appears on a search result page after typing a search term. If the advertiser specifies a set of keywords that are relevant to that search query, and also the [Ad Rank](https://support.google.com/google-ads/answer/1752122?hl=en&ref_topic=24937&sjid=13026874370645627094-EU) is above a certain threshold, then the Ads could be shown. The problem is that those are intent-based keywords, and a random number of users who seek the product will miss the bottom of the sales funnel. This gap can make "search volume" forecasts more or less uncertain.
 
-More reliable measures to rely on, such as the ones from official statistics, could reduce this gap and allow marketing analysts to set more reliable budget forecasts. For example, for this work, I have referred to Rome Fiumicino's Air Traffic Data [web page](https://www.adr.it/web/aeroporti-di-roma-en/bsn-traffic-data?p_p_id=it_adr_trafficdata_web_portlet_TrafficDataWebPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_it_adr_trafficdata_web_portlet_TrafficDataWebPortlet_dataRif=202312&_it_adr_trafficdata_web_portlet_TrafficDataWebPortlet_tabs1=FCO).
+More reliable measures to rely on, such as the ones from official statistics, could reduce this gap and allow marketing analysts to set more reliable budget forecasts. [web page]
 
-The general idea is to weigh the keyword search volume with the projected monthly number of air passengers gathered from the above data source. Here, the dependent variable "keyword search volume" is derived as a linear relationship with its future trend and seasonal components plus the official air passenger volume. The forecasting period is about the first three months of 2023.
+The idea is to weigh the keyword search volume with the projected monthly number of air passengers gathered from the above data source. Here, the dependent variable "keyword search volume" is derived as a linear relationship with its future trend and seasonal components plus the official air passenger volume. The forecasting period is related to the first quarter of 2023.
 
 # Data understanding
 
