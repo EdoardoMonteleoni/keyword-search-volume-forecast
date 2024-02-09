@@ -4,9 +4,9 @@
 
 ![LinkedinBackGround2](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/b0658c0b-a92c-4ef6-8e81-0c74cb9e272e)
 
-Search advertising budgets in the tourism and travel industry are strictly based on seasons, and a good **search volume** forecast at the keyword level allows the organisation to run efficient search ad campaigns.
+Search advertising budgets in the tourism and travel industry should be based on seasonality and demand fluctuations [^1], and a good **search volume** forecast at the keyword level allows an organisation to run efficient and effective search advertising campaigns.
 
-A common approach to the question is using the built-in keyword planner tool in Google Ads or Microsoft Advertising. These platforms consider the account's historical data, plus other factors, such as seasonal values, organic volumes and competitor bidding for the intended group of keywords.[^1]
+A common approach to the question is using the built-in keyword planner tool in Google Ads or Microsoft Advertising. These platforms consider the account's historical data, plus other factors, such as seasonal values, organic volumes and competitor bidding for the intended group of keywords.[^2]
 
 Since I don't want to rely solely on these "black-box" tools to gauge a short-term search volume for a keyword set, I will show a forecasting method based on a time series regression analysis and a data set derived from an official Airport's website.
 
@@ -49,7 +49,7 @@ I split the data frame into a [training](training_df.csv) and a [test](test_df.c
 
 # Modelling
 
-Two variations of the Linear Regression and Exponential Smoothing models are used.[^2] 
+Two variations of the Linear Regression and Exponential Smoothing models are used.[^3] 
 As for the Time Series Linear Model, a first version including air passengers with trend and seasonal components is implemented. The other version does not include air passengers as an exogenous feature.
 The last is an exponential smoothing model with the Holt-Winters method, with additive trend and seasonal components.
 
@@ -77,8 +77,11 @@ _The three-month Google Ads forecast for the target keyword_
 
 ![forecast](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/5b749eb2-e72a-42ce-90a8-8633071cf629)
 
-_The three-month forecast computed using the time series linear model and two different scenarios for the near future number of passengers_
+_The three-month forecast computed using the time series linear model and two different scenarios for the near future number of passengers
 
-[^1]: Google Ads Help - _"About Keyword Planner forecasts"_ (https://support.google.com/google-ads/answer/3022575?sjid=13323525779093924143-EU&visit_id=638430680710415783-1787451205&rd=1). Last accessed Feb 2024
 
-[^2]: Hyndman, R.J., & Athanasopoulos, G. (2021) _Forecasting: principles and practice_, 3rd edition, OTexts: Melbourne, Australia. OTexts.com/fpp3. Accessed on Feb 2024
+[^1]: Think with Google: _"3 budgeting tips to help marketers plan for 2021 amid uncertainty"_ (https://www.thinkwithgoogle.com/intl/en-emea/future-of-marketing/management-and-culture/3-budgeting-tips-help-marketers-plan-2021-amid-uncertainty/). Last access Feb 2024
+
+[^2]: Google Ads Help - _"About Keyword Planner forecasts"_ (https://support.google.com/google-ads/answer/3022575?sjid=13323525779093924143-EU&visit_id=638430680710415783-1787451205&rd=1). Last access Feb 2024
+
+[^3]: Hyndman, R.J., & Athanasopoulos, G. (2021) _Forecasting: principles and practice_, 3rd edition, OTexts: Melbourne, Australia. OTexts.com/fpp3. Accessed on Feb 2024
