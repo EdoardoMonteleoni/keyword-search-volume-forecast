@@ -8,7 +8,7 @@ Search advertising budgets should be based on seasonality and demand fluctuation
 
 A common approach to the question is using the built-in keyword planner tool in Google Ads or Microsoft Advertising. These platforms consider the account's historical data, plus other factors, such as seasonal values, organic volumes and competitor bidding for the intended group of keywords.[^2]
 
-Since I don't want to rely solely on these "black-box" tools to gauge a short-term search volume for a keyword set, I will show a forecasting method based on a time series regression analysis using R to write the [code](Code.R) and a data set built with the number of Rome-Fiumicino [Airport passengers](https://www.adr.it/web/aeroporti-di-roma-en/bsn-traffic-data?p_p_id=it_adr_trafficdata_web_portlet_TrafficDataWebPortlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_it_adr_trafficdata_web_portlet_TrafficDataWebPortlet_dataRif=202312&_it_adr_trafficdata_web_portlet_TrafficDataWebPortlet_tabs1=FCO) and the **search volume** metric derived from the organisation's Google Ads account.
+Since I usually don't rely solely on these "black-box" tools to gauge a short-term search volume for a keyword set, I will show how I  approach the question using two data sets and R to derive a time series linear regression [model](Code.R).
 
 # The business problem
 
