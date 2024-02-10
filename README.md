@@ -4,7 +4,7 @@
 
 ![LinkedinBackGround2](https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/b0658c0b-a92c-4ef6-8e81-0c74cb9e272e)
 
-Search advertising budgets should be based on seasonality and demand fluctuations [^1], and a good **search volume** forecast at the keyword level can allow organisations in the tourism and travel industry to allocate search budgets more effectively.
+Search advertising budgets should be based on seasonality and demand fluctuations [^1], and a good **search volume** forecast at the keyword level can allow organisations in the tourism and travel industry to allocate budgets more effectively.
 
 A common approach to the question is using the built-in keyword planner tool in Google Ads or Microsoft Advertising. These platforms consider the account's historical data, plus other factors, such as seasonal values, organic volumes and competitor bidding for the intended group of keywords.[^2]
 
