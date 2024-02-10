@@ -15,7 +15,7 @@ Since I usually don't rely solely on these "black-box" tools to gauge a short-te
 Setting a proper budget for search engine advertising campaigns is paramount, and doing it beforehand is even more critical, particularly for travel and tourism businesses that have to deal with seasonal demand fluctuations. To efficiently and effectively set up proper search budgets, apart from historical Cost per Click, one could consider the volume of future searches for the targeted keywords.
 
 An important metric used in Search Engine Advertising to assess the number of times a user searches for a particular (paid) keyword is [Search Volume](https://adalysis.com/blog/ppc-kpi-monitoring-how-to-diagnose-changes-to-your-impression-search-volume), which is the number of Ad impressions divided by the search network [Impression Share](https://adalysis.com/blog/ppc-kpi-monitoring-how-to-diagnose-changes-to-your-impression-search-volume).
-One of its advantages is that it is a keyword-based index, which considers the number of relevant queries from interested users about the advertised product.
+One of the advantages of using such a metric is that it is a keyword-based index that considers the number of relevant queries about the advertised product only from interested users.
 
 Considering historical data available at the account keyword level, forecasting Search Volume is relatively easy. The hard part is building and presenting forecasts when we have no other metric to rely on. 
 The cons I found in using this variable are two:
