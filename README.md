@@ -90,7 +90,7 @@ _The three-month Google Ads forecast for the target keyword_
 _The three-month forecast computed using the time series linear model and two different scenarios for the near future number of passengers_
 
 Considering the highly seasonal behaviour of the metric being forecasted, the Seasonal Naive method (scenario n.2) used in the linear model produced a search volume prediction that fitted the actual trend considerably well. 
-
+Comparing the error that would have occurred using a projection instead of the other in absolute terms, the TSLM with scenario n.2 would produce an error of 63%, whereas the Google Ads prediction error would have been 100%.
 
 <img width="500" alt="forecast_accuarcy_chart" src="https://github.com/EdoardoMonteleoni/keyword-search-volume-forecast/assets/105068746/e84c54ef-8fac-4de7-890b-3d192e472408">
 
